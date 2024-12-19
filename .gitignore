@@ -13,6 +13,7 @@ node_modules
 dist
 example
 build
+html
 
 dist-ssr
 *.local
