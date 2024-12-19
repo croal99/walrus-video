@@ -1,3 +1,6 @@
+
+![title.jpg](./images/title.jpg)
+
 # WalrusMovie 微短剧播放平台
 
 ## **平台定位与独特卖点**
@@ -82,3 +85,7 @@
 ### **愿景总结**
 
 WalrusMovie 致力于成为微短剧领域的先行者，通过去中心化技术赋能创作者与观众，打造一个开放、透明、创新的微短剧播放与交易平台。
+
+Website: https://jv9fto2rvc2u8opxa84p5e4t2ldh9ayf5wdp38s5fahccrf9k.walrus.site
+
+Mail: bc443995@gmail.com
