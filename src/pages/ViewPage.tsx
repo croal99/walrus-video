@@ -5,7 +5,9 @@ import Button from "@mui/material/Button";
 
 import {styled} from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
+import Chip from '@mui/material/Chip';
 import Stack from "@mui/material/Stack";
+import Divider from '@mui/material/Divider';
 import Typography from "@mui/material/Typography";
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -298,7 +300,13 @@ export default function ViewPage() {
                 </DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        Please pay <Button variant="contained">{movieInfo?.coin}</Button> SUI for subscribe this movie.
+                        <Typography>
+                            Please pay <Chip color="success" label={movieInfo?.coin} /> SUI for subscribe this movie.
+                        </Typography>
+                        <Divider />
+                        <Typography>
+                        Switch your wallet to <Chip color="success" label="testnet" /> during testing.
+                        </Typography>
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>

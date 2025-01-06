@@ -24,7 +24,12 @@ export default function HomePage() {
                 <Divider />
                 <Item>
                     <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                        Version: 2024.12.19.01 [testnet]
+                        Version: 2024.12.19.02 [testnet]
+                    </Typography>
+                </Item>
+                <Item>
+                    <Typography variant="body2" sx={{color: 'text.secondary'}}>
+                        Github: https://github.com/croal99
                     </Typography>
                 </Item>
             </div>

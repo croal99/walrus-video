@@ -37,7 +37,7 @@ if (!config.key) {
     initKeys(config);
 }
 
-// await uploadMovies(config, moviePath);
+await uploadMovies(config, moviePath);
 
 await updateBlobIDs(config);
 
